@@ -13,3 +13,5 @@ print(str.replace("a", "A"))
 print(str.split())
 print(str.find("a"))
 print(str.count("a"))
+
+
