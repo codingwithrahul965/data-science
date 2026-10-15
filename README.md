@@ -1,46 +1,84 @@
-# Hi there 👋, I'm Rahul Mittal
+# Data Science Learning & Practice
 
-## 🚀 About Me
+A hands-on repository documenting my journey with Python, numerical computing, data analysis, and the foundations of machine learning.
 
-I am passionate about programming, data analysis, and problem-solving. Currently, I am focused on building strong foundations in Python and expanding my skills in NumPy, Pandas, and Data Analysis.
+**Author:** Rahul Mittal
 
-My goal is to continuously improve my coding skills through practice, projects, and problem-solving challenges.
+## Goals
 
----
+- Strengthen Python fundamentals through small, focused exercises.
+- Practice numerical computing with NumPy.
+- Learn data cleaning, manipulation, and analysis with Pandas.
+- Build practical data-analysis projects as my skills develop.
+- Keep examples reproducible and easy to revisit.
 
-## 💻 Skills
+## Topics
 
-### Programming
-- Python
+This repository is intended to grow alongside my learning. Content may include:
 
-### Data Analysis
-- NumPy
-- Pandas
+- Python practice and examples
+- NumPy arrays, operations, and numerical workflows
+- Pandas Series/DataFrames, cleaning, filtering, grouping, and analysis
+- Data visualization and exploratory data analysis
+- Beginner-friendly projects and experiments
 
-### Problem Solving
-- Data Structures & Algorithms
-- Coding Challenges
-- Logical Thinking
+Only topics with actual code or notebooks in the repository should be considered completed; this list describes the learning scope, not a claim that every section is finished.
 
----
+## Getting Started
 
-## 📚 Currently Learning
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/codingwithrahul965/data-science.git
+   cd data-science
+   ```
 
-- Advanced Python
-- NumPy for Numerical Computing
-- Pandas for Data Analysis
-- Data Visualization
-- Problem Solving & DSA
+2. (Recommended) Create and activate a virtual environment:
+   ```bash
+   python -m venv .venv
+   ```
 
----
+   Windows PowerShell:
+   ```powershell
+   .\.venv\Scripts\Activate.ps1
+   ```
 
-## 🎯 Goals for 2026
+   macOS/Linux:
+   ```bash
+   source .venv/bin/activate
+   ```
 
-- Master Python Programming
-- Become proficient in NumPy and Pandas
-- Solve 500+ coding problems
-- Build real-world data analysis projects
-- Learn Machine Learning fundamentals
+3. Install only the packages required by the example you want to run. For common data-science exercises:
+   ```bash
+   python -m pip install numpy pandas matplotlib jupyter
+   ```
 
+4. Run a Python script with `python path/to/script.py`, or launch notebooks with `jupyter lab` if Jupyter is installed.
 
-⭐ Always learning, building, and improving.
+## Suggested Organization
+
+As the repository grows, keep related material grouped by topic, for example:
+
+```text
+data-science/
+├── README.md
+├── .gitignore
+├── python/
+├── numpy/
+├── pandas/
+├── data-visualization/
+└── projects/
+```
+
+This is a suggested future layout, not a description of the current files. Existing work should be moved only after each file's purpose and any relative paths are checked.
+
+## Working Practices
+
+- Prefer small, clearly named examples that demonstrate one concept.
+- Add a short explanation and expected output to non-obvious exercises.
+- For projects, document the goal, dataset/source, steps, and key findings.
+- Do not commit virtual environments, secrets, local configuration, or generated cache files.
+- Keep datasets and notebooks when they are part of the learning work; do not remove files merely because they appear temporary without checking their purpose.
+
+## Progress
+
+This is an evolving practice repository. Examples and projects will be added as I work through Python, NumPy, Pandas, and data-science fundamentals.
