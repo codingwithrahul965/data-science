@@ -1,46 +1,82 @@
-# Hi there 👋, I'm Rahul Mittal
+# Data Science Learning & Practice
 
-## 🚀 About Me
+A hands-on repository for practicing Python fundamentals and building toward data analysis and machine learning.
 
-I am passionate about programming, data analysis, and problem-solving. Currently, I am focused on building strong foundations in Python and expanding my skills in NumPy, Pandas, and Data Analysis.
+**Author:** Rahul Mittal
 
-My goal is to continuously improve my coding skills through practice, projects, and problem-solving challenges.
+## Repository Contents
 
----
+| Folder / file | What you'll find |
+|---|---|
+| `data_structures/` | Lists, tuples, sets, and dictionaries |
+| `functions/` | Functions, arguments, scope, docstrings, lambda, and recursion |
+| `loops/` | Conditions, loops, control flow, and practice questions |
+| `strings/` | String operations, indexing, slicing, formatting, and exercises |
+| `operators/` | Variables, type casting, and operators |
+| `oops/` | Introductory classes and constructors |
+| `practice/` | General Python practice |
+| `mini_projects/` | Small beginner projects |
+| `numpy/` | NumPy fundamentals, indexing, operations, broadcasting, statistics, masking, and practical exercises |
+| `seaborn-exercises.ipynb` | Seaborn practice notebook |
+| `test.ipynb` | Notebook experiments |
 
-## 💻 Skills
+This is a learning-in-progress repository. Pandas, more visualization work, and machine-learning projects can be added as they are completed; their mention as future goals should not be taken as a claim that they are already implemented.
 
-### Programming
-- Python
+## Getting Started
 
-### Data Analysis
-- NumPy
-- Pandas
+1. Clone the repository:
 
-### Problem Solving
-- Data Structures & Algorithms
-- Coding Challenges
-- Logical Thinking
+   ```bash
+   git clone https://github.com/codingwithrahul965/data-science.git
+   cd data-science
+   ```
 
----
+2. Create a virtual environment:
 
-## 📚 Currently Learning
+   ```bash
+   python -m venv .venv
+   ```
 
-- Advanced Python
-- NumPy for Numerical Computing
-- Pandas for Data Analysis
-- Data Visualization
-- Problem Solving & DSA
+   Activate it on Windows PowerShell:
 
----
+   ```powershell
+   .\.venv\Scripts\Activate.ps1
+   ```
 
-## 🎯 Goals for 2026
+   Or on macOS/Linux:
 
-- Master Python Programming
-- Become proficient in NumPy and Pandas
-- Solve 500+ coding problems
-- Build real-world data analysis projects
-- Learn Machine Learning fundamentals
+   ```bash
+   source .venv/bin/activate
+   ```
 
+3. Install packages only for the notebook or script you plan to run. For NumPy practice:
 
-⭐ Always learning, building, and improving.
+   ```bash
+   python -m pip install numpy
+   ```
+
+   For the Seaborn notebook, install its required libraries as needed:
+
+   ```bash
+   python -m pip install seaborn pandas matplotlib jupyter
+   ```
+
+4. Run a script with `python path/to/script.py`, or open notebooks with `jupyter lab`.
+
+## Learning Workflow
+
+- Run examples locally and experiment with changing the inputs.
+- For each topic, add practice problems and short notes about what you learned.
+- For projects, document the problem, approach, dependencies, and sample output.
+- Keep notebooks and datasets that are part of the work; do not delete files just because their purpose is unclear.
+- Keep virtual environments, secrets, caches, and machine-specific files out of Git.
+
+## Roadmap
+
+- [x] Python fundamentals and practice exercises
+- [x] Introductory NumPy examples
+- [ ] Pandas data manipulation and analysis
+- [ ] Data visualization projects
+- [ ] Beginner machine-learning projects
+
+Checklist items describe the broad state of this learning repository and can be refined as individual topics are completed.
