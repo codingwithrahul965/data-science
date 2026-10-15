@@ -9,11 +9,11 @@ A hands-on repository for practicing Python fundamentals and building toward dat
 | Folder / file | What you'll find |
 |---|---|
 | `data_structures/` | Lists, tuples, sets, and dictionaries |
-| `functions/` | Functions, arguments, scope, docstrings, lambda, and recursion |
-| `loops/` | Conditions, loops, control flow, and practice questions |
-| `strings/` | String operations, indexing, slicing, formatting, and exercises |
-| `operators/` | Variables, type casting, and operators |
-| `oops/` | Introductory classes and constructors |
+| `python_fundamentals/functions/` | Functions, arguments, scope, docstrings, lambda, and recursion |
+| `python_fundamentals/loops/` | Conditions, loops, control flow, and practice questions |
+| `python_fundamentals/strings/` | String operations, indexing, slicing, formatting, and exercises |
+| `python_fundamentals/operators/` | Variables, type casting, and operators |
+| `python_fundamentals/oops/` | Introductory classes and constructors |
 | `practice/` | General Python practice |
 | `mini_projects/` | Small beginner projects |
 | `numpy/` | NumPy fundamentals, indexing, operations, broadcasting, statistics, masking, and practical exercises |
