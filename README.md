@@ -1,84 +1,82 @@
 # Data Science Learning & Practice
 
-A hands-on repository documenting my journey with Python, numerical computing, data analysis, and the foundations of machine learning.
+A hands-on repository for practicing Python fundamentals and building toward data analysis and machine learning.
 
 **Author:** Rahul Mittal
 
-## Goals
+## Repository Contents
 
-- Strengthen Python fundamentals through small, focused exercises.
-- Practice numerical computing with NumPy.
-- Learn data cleaning, manipulation, and analysis with Pandas.
-- Build practical data-analysis projects as my skills develop.
-- Keep examples reproducible and easy to revisit.
+| Folder / file | What you'll find |
+|---|---|
+| `data_structures/` | Lists, tuples, sets, and dictionaries |
+| `functions/` | Functions, arguments, scope, docstrings, lambda, and recursion |
+| `loops/` | Conditions, loops, control flow, and practice questions |
+| `strings/` | String operations, indexing, slicing, formatting, and exercises |
+| `operators/` | Variables, type casting, and operators |
+| `oops/` | Introductory classes and constructors |
+| `practice/` | General Python practice |
+| `mini_projects/` | Small beginner projects |
+| `numpy/` | NumPy fundamentals, indexing, operations, broadcasting, statistics, masking, and practical exercises |
+| `seaborn-exercises.ipynb` | Seaborn practice notebook |
+| `test.ipynb` | Notebook experiments |
 
-## Topics
-
-This repository is intended to grow alongside my learning. Content may include:
-
-- Python practice and examples
-- NumPy arrays, operations, and numerical workflows
-- Pandas Series/DataFrames, cleaning, filtering, grouping, and analysis
-- Data visualization and exploratory data analysis
-- Beginner-friendly projects and experiments
-
-Only topics with actual code or notebooks in the repository should be considered completed; this list describes the learning scope, not a claim that every section is finished.
+This is a learning-in-progress repository. Pandas, more visualization work, and machine-learning projects can be added as they are completed; their mention as future goals should not be taken as a claim that they are already implemented.
 
 ## Getting Started
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/codingwithrahul965/data-science.git
    cd data-science
    ```
 
-2. (Recommended) Create and activate a virtual environment:
+2. Create a virtual environment:
+
    ```bash
    python -m venv .venv
    ```
 
-   Windows PowerShell:
+   Activate it on Windows PowerShell:
+
    ```powershell
    .\.venv\Scripts\Activate.ps1
    ```
 
-   macOS/Linux:
+   Or on macOS/Linux:
+
    ```bash
    source .venv/bin/activate
    ```
 
-3. Install only the packages required by the example you want to run. For common data-science exercises:
+3. Install packages only for the notebook or script you plan to run. For NumPy practice:
+
    ```bash
-   python -m pip install numpy pandas matplotlib jupyter
+   python -m pip install numpy
    ```
 
-4. Run a Python script with `python path/to/script.py`, or launch notebooks with `jupyter lab` if Jupyter is installed.
+   For the Seaborn notebook, install its required libraries as needed:
 
-## Suggested Organization
+   ```bash
+   python -m pip install seaborn pandas matplotlib jupyter
+   ```
 
-As the repository grows, keep related material grouped by topic, for example:
+4. Run a script with `python path/to/script.py`, or open notebooks with `jupyter lab`.
 
-```text
-data-science/
-├── README.md
-├── .gitignore
-├── python/
-├── numpy/
-├── pandas/
-├── data-visualization/
-└── projects/
-```
+## Learning Workflow
 
-This is a suggested future layout, not a description of the current files. Existing work should be moved only after each file's purpose and any relative paths are checked.
+- Run examples locally and experiment with changing the inputs.
+- For each topic, add practice problems and short notes about what you learned.
+- For projects, document the problem, approach, dependencies, and sample output.
+- Keep notebooks and datasets that are part of the work; do not delete files just because their purpose is unclear.
+- Keep virtual environments, secrets, caches, and machine-specific files out of Git.
 
-## Working Practices
+## Roadmap
 
-- Prefer small, clearly named examples that demonstrate one concept.
-- Add a short explanation and expected output to non-obvious exercises.
-- For projects, document the goal, dataset/source, steps, and key findings.
-- Do not commit virtual environments, secrets, local configuration, or generated cache files.
-- Keep datasets and notebooks when they are part of the learning work; do not remove files merely because they appear temporary without checking their purpose.
+- [x] Python fundamentals and practice exercises
+- [x] Introductory NumPy examples
+- [ ] Pandas data manipulation and analysis
+- [ ] Data visualization projects
+- [ ] Beginner machine-learning projects
 
-## Progress
-
-This is an evolving practice repository. Examples and projects will be added as I work through Python, NumPy, Pandas, and data-science fundamentals.
+Checklist items describe the broad state of this learning repository and can be refined as individual topics are completed.
