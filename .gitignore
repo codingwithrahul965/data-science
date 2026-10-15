@@ -1,0 +1,38 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Secrets and local environment configuration
+.env
+.env.*
+!.env.example
+
+# Jupyter local/runtime files (keep notebooks themselves)
+.ipynb_checkpoints/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Build/package artifacts
+build/
+dist/
+*.egg-info/
+
+# Local logs
+*.log
